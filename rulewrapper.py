@@ -1,6 +1,3 @@
-from typing import Sequence
-
-
 def wrap(*data: list, offset: int = 0):
     '''
     Create a Pyomo construction rule for the given data.
